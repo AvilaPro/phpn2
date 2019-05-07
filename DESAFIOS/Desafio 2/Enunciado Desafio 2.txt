@@ -1,0 +1,14 @@
+Enunciado de la tarea 2 de la sección 2886
+crear un proyecto PHP para realizar las siguientes actividades:
+1.- Crear una carpeta llamada "cookies" dentro del proyecto, donde tendra un archivo php que ademas debe contener una funcion llamada "crear", para crear una cookie con fecha de expiracion de un año. Y otra llamada "eliminar" para eliminarla la cookie.(usar namespace)
+
+2.- Crear un php web page que contendra un formulario html para indicar un idioma, debe contener 2 input de tipo radio uno para el idioma "español" debe estar seleccionado por defecto, y otro para el idioma "ingles". Deben procesarse los datos en otra pagina donde debera incluir el archivo creado en el objetivo anterior, y en la funcion crear que guarde en la cookie el idioma seleccionado.
+
+3.- En la misma pagina donde se crea la cookie debe mostrar un mensaje "idioma guardado con exito!", y debe haber una opcion "modificar idioma" que debera ser un hipervinculo al formulario creado en el objetivo anterior donde debe permanecer seleccionado el nuevo idioma.
+
+4.- Se desea hacer un carrito de compras de la siguiente manera. En un nuevo archivo debe crear una tabla con las siguientes columnas: "producto", "precio". En la columna producto debe agregar los valores: "cpu", "monitor", "mouse", "procesador", "teclado". Para la columna "precio" valores aleatorios entre 100 y 1000, puede hacer uso de arreglos. Por cada fila debe crear un formulario y ademas debe crear una tercera columna con titulo vacio donde por cada fila debe haber un boton "agregar al carrito" tipo submit para enviar el formulario. En cada celda donde muestra el producto y el precio almacene en campos ocultos el nombre y el precio por cada fila. Debe procesar los datos en la misma pagina y debe almacenar en un arreglo el nombre y precio y el arreglo en una sesion para que persistan los datos. cada vez que presione un boton "agregar al carrito" se debe agregar al final del arreglo.
+
+5.- cada vez que agregue al carrito un producto, mostrar los productos agregados en una lista y el total del costo de los productos agregados.
+
+Descargar Archivo Adjunto
+http://www.cadif1.com/alumno/descargar_enunciado_tarea/2886/2/2886_2.rar
