@@ -1,0 +1,5 @@
+__call se usa para la sobrecarga de constructores
+
+::  Operador de resolucio de alcance
+
+Un metodo estatico solo puede invocar variables estaticas y metodos estaticos de la misma clase. 
