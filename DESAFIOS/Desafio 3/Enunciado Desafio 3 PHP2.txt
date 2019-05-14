@@ -1,0 +1,13 @@
+Enunciado de la tarea 3 de la sección 2886
+
+Realizar las siguientes actividades:
+
+1.- Crear un archivo php nuevo y crear en este una clase llamada "Movimiento". Agregar a esta clase los atributos: fecha, hora, descripcion, monto, tipodemovimiento (que sera un numero entero, que puede tener los valor 1 para indicar que es un movimiento de deposito o 2 para indicar que es un movimiento de retiro). Hacer que todos los atributos sean privados. Agregarle los metodos constructores, getter y setter. En el constructor asignar la fecha y hora del sistema a los atributos fecha y hora.
+
+2.- crear otro archivo php y crear una clase llamada "Cuenta". Agregar a esta clase los atributos: cliente, tipo_de_cuenta, saldo y operaciones. Hacer que todos los atributos de la clase Cuenta sean privados. Hacer los métodos getter y setter (excepto para el atributo saldo que no debe tener setter). Hacer un metodo constructor en la clase Cuenta, donde se inicialice el atributo "operaciones" como un arreglo vacio.
+
+3.- Crear un metodo llamado "registrar_operacion" en la clase "Cuenta", que recibe por parametros el monto de la operacion, el tipo de movimiento y la descripcion. Instanciar la clase "Movimiento" adentro del metodo registrar operacion y asignarle los valores recibidos. Ademas debe agregar el objeto instanciado en el arreglo "operaciones"
+
+4.- Agregar a la clase Cuenta los metodos depositar y retirar, que reciban por parametro el monto que se va a depositar o retirar. En cada caso, aumentar o disminuir el saldo de la cuenta y dejar registro de la operacion realizada en la cuenta (utilizar el metodo registrar_operacion).
+
+5.- crear un archivo index donde se instacie la clase "Cuenta", se le asigne los datos de la cuenta y se registren varias operaciones de depositos y retiros. Mostrar al final el saldo de la cuenta.
