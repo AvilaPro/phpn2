@@ -1,0 +1,29 @@
+Enunciado de la tarea 4 de la sección 2886
+
+Adjunto la practica de la clase 4 para que ese apoyen. Realizar las siguientes actividades: 
+
+1.- Crear un archivo php donde deberá crear una clase abstracta Trabajador. 
+Definir como atributos nombre y sueldo. Declarar un método abstracto: calcularSueldo. 
+Definir los metodos setter y getter de nombre y sueldo.
+
+2.- En otro archivo php deberá crear una clase Empleado que herede de la clase Trabajador. 
+Definir los atributos horasTrabajadas y valorHora. Debe calcular el sueldo teniendo en cuenta 
+que el sueldo es 4.000 Bs la hora.
+
+3.- En otro archivo php deberá crear una clase Gerente que herede de la clase Trabajador. 
+Debe calcular el sueldo teniendo en cuenta que gana un bono de 30% del sueldo.
+
+4.- Crear un archivo php index donde debera crear un formulario para indicar al usuario que 
+seleccione si es empleado o Gerente. Si es Empleado solicitar los campos "Nombre" y"horasTrabajadas". 
+Si es Gerente solicitar "nombre" y "sueldo base". Debe procesar los datos en otro pagina donde debe 
+instanciar un objeto de la clase Empleado si los datos enviados fueron de un empleado o una instancia 
+de la clase Gerente si los datos enviados fueron de un Gerente. Cargar los datos en el objeto 
+correspondiente y almacenar en un arreglo y el arreglo en una variable de sesion. Redirigir al 
+index nuevamente al formulario donde selecciona si es empleado o gerente. (use una variable de 
+sesion para guardar los empleados y otra para los gerentes).
+
+5.- Descargue la librería fpdf de la siguiente URL www.fpdf.org y descomprima en una carpeta 
+nueva dentro del proyecto. Cree otro archivo donde incluya la librería fpdf.php. Muestre en un 
+reporte en pdf primero el nombre y sueldo total de los Gerentes y luego el de los empleados registrados.
+
+Descargar Archivo Adjunto
