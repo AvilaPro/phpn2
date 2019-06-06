@@ -11,7 +11,7 @@ and open the template in the editor.
     </head>
     <body style="<?php if(isset($_COOKIE["fondo"])){
         echo "background: ".$_COOKIE["fondo"].";";
-        echo "color:white";
+        echo "color:#7AFF80";
     } ?>">
         <?php
         if(isset($_SESSION["usuario"])){

@@ -12,18 +12,22 @@ and open the template in the editor.
     </head>
     <body style="<?php if(isset($_COOKIE["fondo"])){
         echo "background: ".$_COOKIE["fondo"].";";
-        echo "color:white";
-    } ?>">
+        echo "color:#ADF5FF";
+        } 
+        ?>">
         <?php
         //print_r($_POST)
         if(isset($_POST["Enviar"])){
             if(isset($_POST["color"])){
                 if($_POST["color"]=="oscuro"){
-                    setcookie("fondo","#000000", time()+(60*5));
+                    setcookie("fondo","#000000", time()+(15));
                     echo "Seleccionaste oscuro";
                 }
                 else{
-                    echo "Solo Blanco es aburrido, selecciona algun otro XD";    
+                    if($_POST["color"]=="blanco"){
+                        setcookie("fondo","#FFFFFF", time()+(15));
+                        echo "Solo Blanco es aburrido, selecciona algun otro XD";
+                    }     
                 }
             }
         } else{
